@@ -98,7 +98,7 @@ while not finished:
             k = 0 
 
         score = q + p
-        print(score)
+    print(score)
 
 
 clock.tick(20)          

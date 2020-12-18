@@ -99,6 +99,11 @@ while not finished:
 
         score = q + p
         print(score)
+ 
+#Вывод очков на экран
+        font = pygame.font.Font(None, 50)
+        text = font.render("{}".format(str(score)), 1, (250, 50, 100))
+        screen.blit(text, (290, 50))
 
 
 clock.tick(20)          
